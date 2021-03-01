@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+        integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="all.css">
+
+<body>
+    <div class="container-fluid w-80 mt-5">
+        <form autocomplete="off">
+            <div class="autocomplete">
+                <input id="in_vu" type="search" name="myCountry" placeholder="尋找店家">
+                <button id="btn" type="button">搜尋</button>
+                <p>共有&ensp;<span id="num"></span>&ensp;筆符合的資料</p>
+            </div>
+            
+        </form>
+        
+        <div id="model"></div>
+        
+    </div>
+
+    <style id="search_style"></style>
+    <script src="all.js"></script>
+</body>
+
+</html>
